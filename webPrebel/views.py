@@ -99,6 +99,8 @@ def logicapunto1():
     # Eliminar columnas adicionales usadas para el merge
     df5_completado = df5_completado.drop(columns=['fecha_compra_df4', 'numero_factura_df4'])
 
+    df5_completado.to_excel('webPrebel\BASE_DATOS_FACTURAS.xlsx', index=False)
+
     return df5_completado
 
 
