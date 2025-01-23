@@ -1,7 +1,7 @@
 para ejecutar el proyecto debe tener los siguientes requerimientos :
 
 Package              Version
--------------------- -----------
+
 asgiref              3.8.1
 Django               5.0.11
 django-mssql-backend 2.8.1
